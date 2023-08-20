@@ -1,0 +1,35 @@
+{%  include 'header.html'  %}
+{% load static %}
+
+<!--  <div class="modal" id="myModal">-->
+<!--   <div class="modal-dialog">-->
+<!--     <div class="modal-content">-->
+     <div class="container">
+       <!-- Modal Header -->
+       <div class="modal-header">
+         <h4 class="modal-title">SignUp</h4>
+        <!--<button type="button" class="btn-close" data-bs-dismiss="modal"></button>-->
+       </div>
+
+       <!-- Modal body -->
+       <div class="modal-body">
+
+          <form method="post" action="" name="reg">
+
+
+             {% csrf_token %}
+
+            Name:<input  type="text" name="name" value="" class="form-control">
+            Address:<input  type="text" name="address" value="" class="form-control">
+            ContactNo:<input  type="text" name="contactno" value="" class="form-control">
+            Email:<input  type="text" name="email" value="" class="form-control">
+            Password:<input  type="text" name="password" value="" class="form-control">
+            Pin:<input  type="text" name="pin" value="" class="form-control">
+             <br>
+           <input type="submit" value="Save" name="button" class="btn btn-info">
+
+          </form>
+
+       </div>
+     </div>
+{%  include 'footer.html'  %}
