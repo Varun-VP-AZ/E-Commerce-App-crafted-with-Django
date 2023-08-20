@@ -14,9 +14,9 @@ includes all the products that has been added
 ![image](https://github.com/Varun-VP-AZ/E-Commerce-app-crafted-with-Django/assets/100081593/4e552aa5-195b-4706-b3b9-124f37ca918a)  
 
 ### Admin Functionalities  
- Markup : 1. different categories for products (these categories include different products)
-          2. functionalities of different color variants, size variants are also included 
-          3. Every product has a field of name, category, price, product description, color and size variants also some images.  
+1. different categories for products (these categories include different products)
+2. functionalities of different color variants, size variants are also included 
+3. Every product has a field of name, category, price, product description, color and size variants also some images.  
 ![image](https://github.com/Varun-VP-AZ/E-Commerce-app-crafted-with-Django/assets/100081593/b9f77d43-b440-4b2b-819f-d9e9f67f2829)  
 
 ### Categories  
